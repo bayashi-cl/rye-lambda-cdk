@@ -20,14 +20,17 @@ aws-cdk-asset-awscli-v1==2.2.202
     # via aws-cdk-lib
 aws-cdk-asset-kubectl-v20==2.1.2
     # via aws-cdk-lib
-aws-cdk-asset-node-proxy-agent-v6==2.0.1
+aws-cdk-asset-node-proxy-agent-v6==2.0.3
     # via aws-cdk-lib
-aws-cdk-lib==2.133.0
+aws-cdk-lib==2.138.0
+    # via cdk-pyproject
     # via rye-lambda-cdk
 aws-lambda-powertools==2.35.1
     # via lambda-app
 cattrs==23.2.3
     # via jsii
+cdk-pyproject==0.1.0
+    # via rye-lambda-cdk
 certifi==2024.2.2
     # via requests
 charset-normalizer==3.3.2
@@ -38,7 +41,7 @@ idna==3.6
     # via requests
 importlib-resources==6.4.0
     # via jsii
-jsii==1.95.0
+jsii==1.97.0
     # via aws-cdk-asset-awscli-v1
     # via aws-cdk-asset-kubectl-v20
     # via aws-cdk-asset-node-proxy-agent-v6

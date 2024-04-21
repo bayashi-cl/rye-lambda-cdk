@@ -3,7 +3,10 @@ name = "rye-lambda-cdk"
 version = "0.1.0"
 description = "Add your description here"
 authors = [{ name = "Masaki Kobayashi", email = "bayashi.cl@gmail.com" }]
-dependencies = ["aws-cdk-lib>=2.133.0"]
+dependencies = [
+    "aws-cdk-lib>=2.133.0",
+    "cdk-pyproject>=0.1.0",
+]
 readme = "README.md"
 requires-python = ">= 3.12"
 
